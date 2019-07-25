@@ -1,2 +1,2 @@
-<h1> Hello, Welcome to the new Technologies !!! </h1>
+<h1> Hello, Welcome to the new technology !!!! </h1>
 
