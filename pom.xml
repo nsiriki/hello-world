@@ -216,5 +216,18 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         
+         <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://18.234.184.197:8081/nexus/content/repositories/CA/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://18.234.184.197:8081/nexus/content/repositories/CA_ID/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 </project>
